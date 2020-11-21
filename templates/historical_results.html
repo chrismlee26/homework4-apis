@@ -6,7 +6,7 @@
         TODO: Replace the hard-coded city and date below with data from the 
         server.
     #}
-    <h1>Weather in San Francisco</h1>
+    <h1>Weather in {{ city }}</h1>
     <p>on Saturday, August 29, 2020</p>
 
 
@@ -16,9 +16,9 @@
     #}
     <ul>
         <li>Description: </li>
-        <li>Temperature: ° F</li>
-        <li>Min: ° F</li>
-        <li>Max: ° F</li>
+        <li>Temperature: ° {{ units }} </li>
+        <li>Min: ° {{ units }}</li>
+        <li>Max: ° {{ units }}</li>
     </ul>
 
 
